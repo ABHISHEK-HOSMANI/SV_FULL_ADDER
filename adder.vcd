@@ -1,0 +1,51 @@
+$date
+Thu Jun 12 06:57:26 2025
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module adder_top $end
+
+$scope module intf $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var reg 1 $ sum $end
+$var reg 1 % carry $end
+$upscope $end
+
+
+$scope module dut $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+$end
+#1
+1#
+1$
+#2
+1!
+1"
+1%
+#3
+0"
+0$
+#4
+0!
+1"
+0#
+1$
+0%
+#5
